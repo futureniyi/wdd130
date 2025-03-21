@@ -18,8 +18,6 @@
    --footer-border: 1px solid #000;
  }
 
-
-
  nav {
    background-color: var(--primary-color);
    padding: 10px;
@@ -56,15 +54,9 @@
  
  aside {
    width: var(--aside-width);
-   /* margin: 1rem; */
-   /* border: var(--aside-border); */
-   /* padding: 1rem; */
-   /* background-color: var(--aside-bg); */
-   /* color: var(--aside-text); */
    text-align: center;
    position: relative;
  }
- 
  
  aside img {
    width: 200px;
@@ -80,7 +72,6 @@
 
 /* Class Selectors */
 
-
 .box {
   margin: 1rem;
   border: 1px solid rgb(0 0 0 / 10%);
@@ -88,7 +79,6 @@
   background-color: #ddd;
   color: #000;
 }
-
 
 aside h2 {
   position: absolute;
