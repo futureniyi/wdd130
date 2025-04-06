@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | Olaniyi Bello | HTML Form – Rafting Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+<header>
+  <h1>WDD 130 | Olaniyi Bello | Rafting Quiz – HTML Form</h1>
+</header>
+<main>
+  <form>
+    <fieldset>
+      <legend>Quiz About Rafting</legend>
+
+      <div class="form-item">
+        <label for="q1">1. What is your Full Name?</label>
+        <input type="text" id="q1" name="q1" required>
+      </div>
+      
+      <div class="form-item">
+        <label for="q2">2. Describe a thrilling rafting experience you've had (or would love to have):</label>
+        <textarea id="q2" name="q2" rows="4" placeholder="Riding the rapids of the Colorado River..." required></textarea>
+      </div>
+
+      
+      <div class="form-item">
+        <label for="q3">3. Which river would you love to raft on the most?</label>
+        <select id="q3" name="q3" required>
+          <option value="" selected disabled>Choose One ...</option>
+          <option value="nile">Nile River</option>
+          <option value="amazon">Amazon River</option>
+          <option value="zambezi">Zambezi River</option>
+          <option value="colorado">Colorado River</option>
+        </select>
+      </div>
+
+      <div class="form-item">
+        <label for="q4">4. On a scale of (low) 1–10 (high), how much do you love rafting?</label>
+        <input type="number" id="q4" name="q4" min="1" max="10" required>
+      </div>
+    </fieldset>
+
+    <button type="submit">Submit Quiz</button>
+  </form>
+</main>
+<footer>
+  <p>©2025 | Rafting Quiz – HTML Form Activity | Olaniyi Bello</p>
+</footer>
+</body>
+</html>
