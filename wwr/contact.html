@@ -120,9 +120,9 @@
 
         <fieldset class="form-item">
           <legend>Purpose of Message:</legend>
-          <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-          <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-          <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+          <label><input type="radio" id="general" name="purpose" value="general" required> General Inquiry</label>
+          <label><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label>
+          <label><input type="radio" id="suggestion" name="purpose" value="suggestion"> Website Suggestion</label>
         </fieldset>
 
         <div class="form-item">
@@ -130,9 +130,11 @@
           <textarea id="message" name="message" rows="5" required></textarea>
         </div>
 
-        <div class="form-item">
-          <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+        <div class="form-item checkbox-row">
+          <input type="checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe">Please subscribe me to the monthly newsletter</label>
         </div>
+    
 
         <button type="submit">Send Message</button>
       </form>

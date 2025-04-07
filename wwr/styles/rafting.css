@@ -273,6 +273,21 @@ fieldset.form-item label {
   display: block;
 }
 
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.checkbox-row label {
+  margin: 0;
+  padding-left: 0.5rem;
+  line-height: 1;
+}
+
+
+
+
 button[type="submit"] {
   background-color: var(--text-color);
   color: #fff;
@@ -280,7 +295,6 @@ button[type="submit"] {
   font-size: 1.1rem;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
   width: 100%;
   margin-top: 1rem;
   transition: background-color 0.3s ease;
