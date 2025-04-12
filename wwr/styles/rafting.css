@@ -152,10 +152,11 @@
   position: absolute;
   bottom: 5%;
   right: 10%;
-  background-color: #f4ebe9;
+  /* background-color: #f4ebe9; */
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 50px;
   max-width: 550px;
+  font-size: 18px;
 }
 
 .hero-home h1 {
@@ -533,7 +534,7 @@ button[type="submit"]:hover {
   color: #fff;
   text-decoration: none;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
