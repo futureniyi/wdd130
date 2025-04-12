@@ -632,7 +632,6 @@ button[type="submit"]:hover {
 
 /* Booking Section - Used in trips.html */
 .booking-section {
-  max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
 }
