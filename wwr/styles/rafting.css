@@ -57,6 +57,7 @@
   .main-nav {
     display: flex;
     list-style: none;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
   }
@@ -67,6 +68,8 @@
     font-weight: bold;
     padding: 12px;
     border: 0.5px solid #000;
+    flex: 1 1 auto;
+    text-align: center;
   } 
 
   .main-nav a:first-child, 
