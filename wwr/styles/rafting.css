@@ -142,19 +142,19 @@
 }
 
 /* Homepage Hero - Used in index.html */
-.hero-home {
+/* .hero-home {
   position: relative;
   margin: 1rem 0;
   height: auto;
-}
+} */
 
-.hero-home img {
+/* .hero-home img {
   display: block;
   width: 100%;   
   height: auto;
-}
+} */
 
-.hero-home .button-container-1 {
+.button-container-1 {
   position: absolute;
   bottom: 5%;
   right: 10%;
@@ -164,7 +164,7 @@
   font-size: 18px;
 }
 
-.hero-home h1 {
+/* .hero-home h1 {
   position: absolute;
   top: 10px;
   left: 0px;
@@ -174,7 +174,7 @@
   padding: 0.5rem 1rem;
   width: 100%;
   text-align: center;
-}
+} */
 
 /* Trips Hero - Used in trips.html */
 .hero-trips {
